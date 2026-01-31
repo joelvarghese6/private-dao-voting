@@ -1,0 +1,6 @@
+[package]
+name = "privatedao"
+type = "bin"
+authors = [""]
+
+[dependencies]

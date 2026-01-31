@@ -1,0 +1,15 @@
+# Operation: 0=add_member, 1=vote, 2=end_vote, 3=get_result
+operation = "3"
+# Private (used when operation=1)
+member_secret = "0"
+vote_choice = "0"
+# Public state
+proposal_id = "1"
+yes_votes = "0"
+no_votes = "0"
+active = "1"
+member_hashes = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+used_nullifiers = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+# For add_member (operation=0)
+new_member_hash = "0"
+add_member_index = "0"
